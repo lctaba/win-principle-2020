@@ -1,5 +1,9 @@
 # Windows Principles and Its Applications
 
+[English Version](README.en.md)
+
+**Please leve your comment, suggestion, question in the comment feedback or send me emails!**
+
 武汉大学计算机学院课程:
 * 20201021076 《Windows原理与应用》
 * 20201021952 《Windows原理与应用》
@@ -27,7 +31,7 @@ Instructor: Professor Jicheng Hu<br>
 ## 0 Introduction
 slides and resource for the course "principle of windows and its applications"
 
-### course slides:
+### 0.1 course slides:
 
 #### [1 Windows操作系统概述](slides/coursePPT/01Introduction2WindowsOS.pptx)
 
@@ -35,13 +39,21 @@ slides and resource for the course "principle of windows and its applications"
 
 #### [3 线程间通信与同步](slides/coursePPT/03thread.pptx)
 
-### instruction slides:
+### 0.2 instruction slides:
 
 #### [0 Course Introduction](slides/instruction/introduction.pptx)
 
 #### [1 Introduction to Windows Dev](slides/instruction/principleWindows_1.pptx)
 
+#### [2 Program and Process](slides/instruction/principleWindows_2.pptx)
+
+#### [3 Threads and Synchronization](slides/instruction/principleWindows_3.pptx)
+
 ## 1 Visual Studio 2019 Community
+
+### 1.1 Installation of VS 2019 Community
+
+### [1.2 Choice of Front-end Frameworks](appendix/front-end.md)
 
 
 ## 2 git, github and gitee
@@ -85,6 +97,7 @@ gitee 的 VS extension 下载地址:
 
 https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
+### [2.3 frequently used git commands](git/frequentlyUsed.md)
 
 
 ## 3  WSL
@@ -92,6 +105,8 @@ https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 [Installation of WSL](WSL/WSL.md)
 
 ## 4 Course Lab
+
+[Goto details](labs/labs.md)
 
 ### 4.1 git
 
@@ -109,6 +124,23 @@ https://www.cnblogs.com/zhaotianff/p/10637397.html
 *  readelf<br>
 https://www.cnblogs.com/gatsby123/p/9750187.html
 
+## 5 refs
+
+<https://github.com/microsoft>
+
+[C++/winRT refs](appendix/cppWinRT.md)
+
+## Academic Integrity
+
+Grading in this course is intended to be fair and objectively measure your 
+performance as much as possible. 
+Wuhan University regards acts of academic dishonesty (e.g., plagiarism, 
+cheating on examinations, obtaining unfair advantage, and falsification of 
+laboratory notebook records) as serious offenses against the values of 
+intellectual honesty. 
+
+Penalty for Academic Dishonesty:
+* grade penalty: final grade is of 0 grade-point
 
 ## How to contribute
 
