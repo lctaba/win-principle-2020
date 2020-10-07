@@ -103,6 +103,12 @@ startup project for your solution by default.
 
 ![Package Project](pix/packManifest.PNG)
 
+如果运行项目中个别文件找不到头文件，如pch.h文件中标红的“#include <winrt/Windows.Foundation.h>”，且运行后报错如下：
+![](https://images.gitee.com/uploads/images/2020/1003/154049_e4c1eb7d_5722310.jpeg "QQ图片20201003154019.jpg")
+请在extensions中下载C++/WinRT插件：
+![](https://images.gitee.com/uploads/images/2020/1003/154359_9a1925f7_5722310.png "QQ图片20201003154329.png")
+下载完成后，重新rebuild项目，即可正常运行。
+
 7. To add a new item to your app project, right-click the Project name (Desktop) project 
 node in Solution Explorer and select Add -> New Item. In the Add New Item dialog box, 
 select the WinUI tab, choose the item you want to add, and then click Add. For more 
@@ -112,4 +118,24 @@ details about the available items, see [this section](https://docs.microsoft.com
 
 8. Build and run your solution to confirm that the app runs without errors.
 
+9. When running apps on your desktop, Windows will require you to enable **developer mode**. 
 
+   ![error_develop_mode](pix/error_develop_mode.png)
+
+   The configuration page will appear spontaneously when you build your project, you can enable developer mode in this page.
+
+   You can also simply enable developer mode through clicking Win-->settings-->update&security-->developer options-->developer mode.
+
+   ![enable_developer_mode](pix/enable_developer_mode.png)
+
+10. If your Windows OS hasn't been updated to latest version, there will exist problems when running the app.
+
+    ![version_error](pix/version_error.png)
+
+     Here are two solutions:
+
+    a. Update your Windows OS (recommended)
+
+    b. Reduce the minimum version requirements of the application. Right-click the UWP application project, select `Properties` , and change the **Min version** to a lower version (such as 17134). (This is not a safe method, some APIs may only be provided in higher version)
+
+    ![change_minVersion](pix/change_minVersion.png)
