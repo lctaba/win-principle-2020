@@ -10,7 +10,7 @@ Targets of this memoire:
 
 * * *
 
-## 0 Basic git command
+## 0 Basic git commands
 
 在 Developer PowerShell for VS 2019 中将路径该换到本地仓库，可执行如下命令来简单地向远程仓库推送更新：8xiaomi12
 
@@ -19,8 +19,16 @@ chcp 437
 
 git status
 
-git push
+git clone https://gitee.com/someones/somerepo.git
+
+git push origin_gitee master
 ```
+
+去掉已经托管的文件
+```git
+git rm -r --cached filename
+```
+
 
 ### 0.1 git branch
 

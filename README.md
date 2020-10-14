@@ -103,6 +103,7 @@ https://marketplace.visualstudio.com/items?itemName=GiteeInc.GiteeExtension
 
 ### [2.3 frequently used git commands](git/frequentlyUsed.md)
 
+### [2.4 New git preview features](git/preview_features.md)
 
 ## 3  WSL
 
@@ -153,5 +154,26 @@ Penalty for Academic Dishonesty:
 3.  Create a new feature branch Feat_xxx 
 4.  Make a commit
 4.  Create new Pull Request
+
+## Preprint of Text
+
+**编写教材预印本**, **欢迎大家增加素材或贡献工作！**
+
+[第1章 概述](preprint/chapter_1/ch_1.md)
+
+[第2章 进程](preprint/chapter_2/ch_2.md)
+
+[第3章 线程](preprint/chapter_3/ch_3.md)
+
+[第4章 文件系统](preprint/chapter_4/ch_4.md)
+
+[第5章 注册表](preprint/chapter_5/ch_5.md)
+
+[第6章 动态链接库](preprint/chapter_6/ch_6.md)
+
+[第7章 COM 原理](preprint/chapter_7/ch_7.md)
+
+[第8章 窗体与消息](preprint/chapter_8/ch_8.md)
+
 
 
