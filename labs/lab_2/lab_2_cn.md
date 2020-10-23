@@ -4,6 +4,9 @@ Read [English Version](lab_2.md)
 
 ***
 
+你也可以使用课程组提供的 wpfTest 代码展开实验，
+这样就不用进行下面的实验。
+
 Misson of this class:
 1. Enumerating Registry Subkeys
 2. Deleting a Key with Subkeys
@@ -17,4 +20,6 @@ Misson of this class:
 ## 3 [删除具有子键的键](lab_2_3.md)
 
 ## 4 [确定注册表大小](lab_2_4.md)
+
+## 5 [在 Windows 下进行 Debug](lab_2_5.md)
 
